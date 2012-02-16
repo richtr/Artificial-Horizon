@@ -1,0 +1,7 @@
+_old
+.project
+.settings
+*~
+*.diff
+*.patch
+.DS_Store

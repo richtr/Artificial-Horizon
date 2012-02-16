@@ -1,0 +1,34 @@
+/* put your styles here */
+html {
+	height: 100%;
+	width: 100%;
+	}
+body {
+	position: fixed;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background: transparent url(../images/bg.jpg) no-repeat scroll 50%;
+	background-size: 100% 100%;
+}
+
+#canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -135px;
+	margin-top: -135px;
+}
+
+#top {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -180px;
+	margin-top: -180px;
+	width: 360px;
+	height: 360px;
+	background: transparent url(../images/tool_320.png) no-repeat;
+	background-position: 50% 50%;
+}
