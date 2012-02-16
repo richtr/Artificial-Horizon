@@ -11,6 +11,8 @@ Simply clone this repo as follows:
     
 Load 'index.html' and enjoy!
 
+Online demo available [here](http://people.opera.com/richt/release/demos/orientation/artificialhorizon).
+
 #### Screenshots ####
 
 With the screen in a vertical plane perpendicular to the ground:
