@@ -62,7 +62,7 @@ var artificialHorizon = (function() {
         context.beginPath();
         context.fillStyle = SKY_COLOR;
         context.moveTo( - radius, 0);
-        context.arcTo( - radius, 0, radius, 0, radius);
+        context.arcTo(0, -radius*2, radius, 0, radius);
         context.bezierCurveTo(radius, horizon * KAPPA, radius * KAPPA, horizon, 0, horizon);
         context.bezierCurveTo( - radius * KAPPA, horizon, -radius, horizon * KAPPA, -radius, 0);
         context.closePath();
@@ -114,7 +114,7 @@ var artificialHorizon = (function() {
         var accelData = evt.accelerationIncludingGravity;
 
         var aX = accelData.x;
-        var aY = accelData.y;
+        var aY = - accelData.y;
         var aZ = accelData.z;
 
         if (aspectRatio > 1 && _rawRoll > 0) {
