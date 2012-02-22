@@ -124,7 +124,7 @@ var artificialHorizon = (function() {
 
     var accelData = evt.accelerationIncludingGravity;
 
-    var _aX = -accelData.x;
+    var _aX = accelData.x;
     var _aY = accelData.y;
     var _aZ = accelData.z;
 
