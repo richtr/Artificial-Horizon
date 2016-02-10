@@ -8,10 +8,10 @@ An artificial horizon instrument implementation in pure Javascript using W3C Acc
 Simply clone this repo as follows:
 
     git clone git@github.com:richtr/Artificial-Horizon.git
-    
+
 Load 'index.html' and enjoy!
 
-Online demo available [here](http://people.opera.com/richt/release/demos/orientation/artificialhorizon).
+An online demo is available [here](https://richtr.github.io/Artificial-Horizon/).
 
 #### Screenshots ####
 
